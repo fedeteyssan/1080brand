@@ -12,10 +12,10 @@
   <!-- Bulma -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 
-  <!-- Google fonts -->
+   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Saira&display=swap" rel="stylesheet">
 
 </head>
 
@@ -23,24 +23,14 @@
 
   <!-- Header -->
   <header>
-    <div class="images-container is-flex-direction-row ">
-
-      <!-- RRSS -->
-      <div class="redes-container is-flex is-justify-content-flex-end">
-        <a href=""><img src="Images/iconoface.png" alt="facebook"></a>
-        <a href=""><img src="Images/iconoinstagram.png" alt="instagram"></a>
-        <a href=""><img src="Images/iconowhatsapp.png" alt="whatsapp"></a>
-      </div>
-
-      <!-- Isologo -->
-      <div class="logo-container is-flex is-justify-content-center">
-        <img class="isologo" src="Images/isologotipocolor.png" alt="isologo">
-      </div>
-
-    </div>
 
     <!-- Navbar -->
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation">
+
+      <!-- Isologo -->
+      <div class="logo-container is-flex is-justify-content-flex-start">
+        <img class="isologo" src="https://via.placeholder.com/50" alt="isologo">
+      </div>
 
       <div class="navbar-brand">
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -50,118 +40,214 @@
         </a>
       </div>
     
-      <div id="navbarBasicExample" class="navbar-menu is-align-items-center	is-justify-content-center">
-        <a class="navbar-item menu-item" href="index.html">HOME</a>
-        <a class="navbar-item menu-item" href="nosotros.html">NOSOTROS</a>
-
-        <div class="navbar-item has-dropdown is-hoverable">
-          
-          <a class="navbar-link is-arrowless menu-item">
-            TRATAMIENTOS
-          </a>
-  
-          <div class="navbar-dropdown">
-            <a class="navbar-item drowpdown-item" href="tratamientos.html">
-              Tratamientos Faciales
-            </a>
-            <a class="navbar-item drowpdown-item" href="tratamientos2.html">
-              Tratamientos Corporales
-            </a>
-            <a class="navbar-item drowpdown-item" href="tratamientos3.html">
-              Tratamientos de Belleza
-            </a>
-          </div>
-
-        </div>
-
-        <a class="navbar-item menu-item" href="productos.html">PRODUCTOS</a>
-        <a class="navbar-item menu-item" href="novedades.html">NOVEDADES</a>
-        <a class="navbar-item menu-item" href="turnos.html">TURNOS</a>
-        <a class="navbar-item menu-item" href="contacto.html">CONTACTO</a>      
+      <div class="navbar-menu is-align-items-center	is-justify-content-center">
+        
+        <a class="navbar-item menu-item" href="">HOME</a>
+        <a class="navbar-item menu-item" href="#services">SERVICES</a>
+        <a class="navbar-item menu-item" href="#work">WORK</a>
+        <a class="navbar-item menu-item" href="#aboutUs">ABOUT US</a>
+        <a class="navbar-item menu-item" href="#contactUs">CONTACT US</a>      
       </div>
     </nav>
 
+
     <!-- Homebanner -->
-    <div class="homebanner-container">
-      <img src="Images/bannerhome.png" alt="homebanner">
+    <div class="homebanner-container is-flex is-justify-content-center">
+      <img src="https://via.placeholder.com/1440x800" alt="homebanner">
+    </div>
+
+    <div class="claims">
+      <p class="claim1">CREATIVITY WITH HARD EDGES</p>
+      <br>
+      <p class="claim2">Small Studio, Big Ideas</p>
     </div>
 
   </header>
 
+  
+
   <!-- Sección principal -->
-  <section class="home-container">
+  <section class="home-container is-flex-direction-column is-justify-content-center is-align-items-center ">
 
-    <div class="tratamientos-container is-flex is-justify-content-space-between">
-      <a class="tratamientos" href="tratamientos.html">
-        <h2>Tratamientos Faciales</h2>
-        <img src="Images/hometratfaciales.png" alt="Tratamientos faciales">
-        <p>Nuestro rostro es la parte de nuestro cuerpo de la cual estamos siempre atentos dado que está expuesto a los rayos solares 
-          y las variaciones climáticas. La piel de nuestro rostro requiere cuidados específicos.</p>
-      </a>
+    <!-- Services -->
+    <h1 id="services" class="pt-6 mb-6 has-text-centered">SERVICES</h1>
 
-      <a class="tratamientos" href="tratamientos2.html">
-        <h2>Tratamientos Corporales</h2>
-        <img src="Images/hometratcorporales.png" alt="Tratamientos corporales">
-        <p>Creados para alcanzar distintos objetivos en el cuerpo. Para ello, se aplican diferentes métodos mediante los cuales 
-          se mejora el estado general del cuerpo tanto por fuera como por dentro.</p>
-      </a>
+    <div class="services-container is-flex is-justify-content-space-around">
 
-      <a class="tratamientos" href="tratamientos3.html">
-        <h2>Tratamientos de Belleza</h2>
-        <img src="Images/hometratbelleza.png" alt="Tratamientos belleza">
-        <p>Tratamientos para alcanzar el bienestar y lograr una calidad de vida aceptable.<br>
-          Entendiendo que la estética y la belleza forman parte de nuestra salud.</p>
-      </a>
+      <div class="services is-flex is-justify-content-center">
+        <img src="https://via.placeholder.com/350x500" alt="">
+        <p>GRAPHIC DESIGN</p>
+      </div>
+
+      <div class="services is-flex is-justify-content-center">
+        <img src="https://via.placeholder.com/350x500" alt="">
+        <p>DIGITAL MARKETING</p>
+      </div>
+
+      <div class="services is-flex is-justify-content-center">
+        <img src="https://via.placeholder.com/350x500" alt="">
+        <p>VIDEO & CREATIVITY</p>
+      </div>
+    </div>   
+
+    <!-- Work -->
+    <h1 id="work" class="pt-6 mb-6 has-text-centered">WORK</h1>
+
+    <div class="work-container is-flex is-justify-content-space-around ">
+
+      <div class="is-flex-direction-column">
+        <a class="work is-flex is-justify-content-center" href="">
+          <img src="/Images/branding + social media.jpg" alt="">
+        </a>
+  
+        <a class="work is-flex is-justify-content-center" href="">
+          <img src="/Images/social media 2.jpg" alt="">
+        </a>
+  
+        <a class="work is-flex is-justify-content-center" href="">
+          <img src="/Images/social media.jpg" alt="">
+        </a>
+      </div>
+
+      <div class="is-flex-direction-column">
+        <a class="work is-flex is-justify-content-center" href="">
+          <img src="/Images/Branding 3.jpg" alt="">
+        </a>
+  
+        <a class="work is-flex is-justify-content-center" href="">
+          <img src="/Images/branding 2.jpg" alt="">
+        </a>
+  
+        <a class="work is-flex is-justify-content-center" href="">
+          <img src="/Images/branding 1.jpg" alt="">
+        </a>
+      </div>
+
+      <div class="is-flex-direction-column">
+        <a class="work is-flex is-justify-content-center" href="">
+          <img src="/Images/web design 1.jpg" alt="">
+        </a>
+  
+        <a class="work is-flex is-justify-content-center" href="">
+          <img src="/Images/ux-ui design.jpg" alt="">
+        </a>
+  
+        <a class="work is-flex is-justify-content-center" href="">
+          <img src="/Images/photoshooting 2.jpg" alt="">
+        </a>
+      </div>
+
+      <div class="is-flex-direction-column">
+        <a class="work is-flex is-justify-content-center" href="">
+          <img src="/Images/packaging 2.jpg" alt="">
+        </a>
+  
+        <a class="work is-flex is-justify-content-center" href="">
+          <img src="/Images/packaging 1.jpg" alt="">
+        </a>
+  
+        <a class="work is-flex is-justify-content-center" href="">
+          <img src="/Images/photoshooting.jpg" alt="">
+        </a>
+      </div>
+ 
+    </div>   
+
+    <!-- About Us -->
+    <h1 id="aboutUs" class="pt-6 mb-6 has-text-centered">ABOUT US</h1>
+
+    <div class="aboutUs-container is-flex-direction-column is-justify-content-center">
+
+      <p class="mb-1">
+        We are 1080. A digital marketing agency focused 100% on results<br> We exist so that our clients find in us a simple, honest, understandable and concrete way to increase their sales in the digital world.<br> WE MAKE BETTER ADVERTISING, BY MAKING ADVERTISING BETTER.<br>
+        Our work comes from the simple principle of growing a clients business by selling their products.<br>
+        To get the best results our people get upstream of marketing problems.<br> We understand the business problem, transforming data and insights into truths.<br>
+        Clients come to us for work that helps make their businesses more successful,<br> and for top-flight creativity, strategy and craft that helps their organizations exceed their goals.
+
+      </p>
+
+      <div class="aboutUs-items-container columns">
+
+        <div class="column">
+          <div class="aboutUs-item is-flex-direction-column" href="">
+            <img src="/Images/sofia muratorio.jpg" alt="">
+            <h5>Sofía Muratorio - Design</h5>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="aboutUs-item is-flex-direction-column" href="">
+            <img src="/Images/juanello.jpg" alt="">
+            <h5>Juan Roccatagliatta - Marketing</h5>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="aboutUs-item is-flex-direction-column" href="">
+            <img src="https://via.placeholder.com/250x250" alt="">
+            <h5>Sebastián Abramovich - Creativity</h5>
+          </div>
+        </div>
+
+      </div>
+
     </div>
 
-    <div class="promociones-container is-flex is-flex-direction-column is-align-items-center">
-      <h2>Promociones</h2>
-      <img src="Images/Banner Promociones.png" alt="banner-promociones">
+    <!-- Contact Us -->
+    <h1 id="contactUs" class="pt-6 mb-6 has-text-centered">CONTACT US</h1>
+
+    <div class="contact-container">
+      <p class="mb-6">
+        WE'D LOVE TO HEAR FROM YOU<br>
+        Looking to put fuel into your business? We should have a conversation.
+      </p>
+  
+      <div class="form-container pb-6 ">
+        
+        <div class="field">
+          <label class="label">Name</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="e.g Alex Smith">
+          </div>
+        </div>
+        
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control">
+            <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Message</label>
+          <div class="control">
+            <textarea class="textarea" placeholder="Your message"></textarea>
+          </div>
+        </div>
+    
+      </div>
+
     </div>
     
-    <div class="mission-banner-container is-flex is-flex-direction-column is-align-items-center">
-      <img src="Images/homefraseamarilla 1.png" alt="banner-mision">
-    </div>
-
   </section>
 
   <!-- Footer -->
-  <footer >
-    <div class="columns">
-      <div class="column">
-        <div class="footer-data">
-          <p>
-            <span>Clínica Medicina Estética, Antiobesidad y Longevidad.</span><br><br>
-            e-mail:<br>
-            Citas: 2713168219<br>
-            Dirección | Cosolapa | Oaxaca | México <br>
-          </p>
+  <footer class="is-flex is-align-items-center is-justify-content-space-around">
 
-          <img src="Images/isologotipoblanco pie.png" alt="isologo">
-        </div> 
-      </div>
-  
-      <div class="column">
-        <div class="footer-menu is-flex is-justify-content-flex-end">
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="nosotros.html">NOSOTROS</a></li>
-            <li><a href="tratamientos.html">TRATAMIENTOS</a></li>
-            <li><a href="productos.html">PRODUCTOS</a></li>
-            <li><a href="novedades.html">NOVEDADES</a></li>
-            <li><a href="turnos.html">TURNOS</a></li>
-            <li><a href="contacto.html">CONTACTO</a></li>
-          </ul>
-        </div>
-        
-        <div class="redes-container is-flex is-justify-content-flex-end">
-          <p>Seguinos en nuestras redes</p>
-          <a href=""><img src="Images/iconoface.png" alt="facebook"></a>
-          <a href=""><img src="Images/iconoinstagram.png" alt="instagram"></a>
-          <a href=""><img src="Images/iconowhatsapp.png" alt="whatsapp"></a>
-        </div>
-      </div>
+    <div class="">
+      <p>Buenos Aires<br>
+        1760 Montevideo Street, Recoleta<br>
+        Buenos Aires, CP1021<br>
+        </p>
     </div>
+
+    <div class="">
+      <p>Barcelona<br>
+        57 Can Sans Avenue, Sant Andreu de Llavaneres<br>
+        Barcelona, CP8392<br>
+        </p>
+    </div>
+
     
   </footer>
   

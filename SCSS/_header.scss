@@ -1,80 +1,44 @@
+@import "utilities";
 
 header{
 
-    .images-container{
-        height: 223px;
+    position: relative;
 
-        .redes-container{
-            padding: 35px 107px 0 0;
-
-            a{
-                padding: 0 6px;
-            }
-        }
-        .logo-container{
-            position: relative;
-            bottom: 4px;
-
-            .isologo{
-                height: 35.427%;
+    .logo-container{
+        margin: 10px 0 0 10px;
+    }
+    
+    .navbar-menu{
+        .menu-item{
+            font-family: $primary-font;
+            color: white;
+            &:hover{
+                color: rgb(255, 214, 153);
+                background-color: black;
             }
         }
     }
     
-    nav{
-        background-color: #4C9DC8 !important;
-        height: 58px !important;
-    
-        .navbar-menu{
-        
-            background-color: #4C9DC8 ;
-    
-            .menu-item{
-                text-align: center;
-                color:#FFFFFF !important;
-                font-family: 'Montserrat', sans-serif ;
-                font-weight: 700;
-                font-size: 18px;
-         
-                &:hover{
-                    background-color: #4C9DC8 !important;
-                    color:#3D3D3D !important;
-                }
-    
-                @media screen and (min-width:1024px) {
-                    height: 22px;
-                }
-            }
-
-            .navbar-link{
-                background-color: #4C9DC8 !important;
-                height: 58px;
-            }
-            
-            .navbar-dropdown{
-               
-                a{
-                    text-align: center;
-                    color: #3D3D3D;
-                    font-family: 'Montserrat', sans-serif ;
-                    font-weight: 500;
-                    font-size: 14px;
-                   
-                    &:hover{
-                        background-color: white !important;
-                    }
-                }
-            } 
-        }
-    }
-
     .homebanner-container{
-        height: 519px;
-        margin: 44px 0 43px 0;
-
-       text-align: center;
+        margin-top: 35px;
     }
     
+    .claims{
+        position: absolute;
+        top: 10rem;
+        right: 50%;
+        transform: translate(50%,-50%);
+
+        .claim1{
+            font-size: 2rem;
+            font-family: $primary-font;
+        }
+
+        .claim2{
+            font-size: 1.5rem;
+            font-family: $primary-font;
+            transform: translate(25%,-50%);
+        }
+    }
+
 }
-
-

@@ -3,564 +3,146 @@
   padding: 0;
 }
 
-header .images-container {
-  height: 223px;
-}
-
-header .images-container .redes-container {
-  padding: 35px 107px 0 0;
-}
-
-header .images-container .redes-container a {
-  padding: 0 6px;
-}
-
-header .images-container .logo-container {
+header {
   position: relative;
-  bottom: 4px;
 }
 
-header .images-container .logo-container .isologo {
-  height: 35.427%;
+header .logo-container {
+  margin: 10px 0 0 10px;
 }
 
-header nav {
-  background-color: #4C9DC8 !important;
-  height: 58px !important;
+header .navbar-menu .menu-item {
+  font-family: "Saira", sans-serif;
+  color: white;
 }
 
-header nav .navbar-menu {
-  background-color: #4C9DC8;
-}
-
-header nav .navbar-menu .menu-item {
-  text-align: center;
-  color: #FFFFFF !important;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-}
-
-header nav .navbar-menu .menu-item:hover {
-  background-color: #4C9DC8 !important;
-  color: #3D3D3D !important;
-}
-
-@media screen and (min-width: 1024px) {
-  header nav .navbar-menu .menu-item {
-    height: 22px;
-  }
-}
-
-header nav .navbar-menu .navbar-link {
-  background-color: #4C9DC8 !important;
-  height: 58px;
-}
-
-header nav .navbar-menu .navbar-dropdown a {
-  text-align: center;
-  color: #3D3D3D;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-}
-
-header nav .navbar-menu .navbar-dropdown a:hover {
-  background-color: white !important;
+header .navbar-menu .menu-item:hover {
+  color: #ffd699;
+  background-color: black;
 }
 
 header .homebanner-container {
-  height: 519px;
-  margin: 44px 0 43px 0;
-  text-align: center;
+  margin-top: 35px;
+}
+
+header .claims {
+  position: absolute;
+  top: 10rem;
+  right: 50%;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+}
+
+header .claims .claim1 {
+  font-size: 2rem;
+  font-family: "Saira", sans-serif;
+}
+
+header .claims .claim2 {
+  font-size: 1.5rem;
+  font-family: "Saira", sans-serif;
+  -webkit-transform: translate(25%, -50%);
+          transform: translate(25%, -50%);
 }
 
 footer {
-  background-color: #3D3D3D;
-  height: 297px;
+  color: white;
+  background: radial-gradient(circle at 10% 20%, black 0%, #404040 90.2%);
+  height: 25rem;
 }
 
-footer .footer-data {
-  margin: 60px 0 0 181px;
+.home-container {
+  background-color: black;
 }
 
-footer .footer-data p {
-  height: 109px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  color: #4C9DC8;
+.home-container h1 {
+  font-size: 4rem;
+  font-family: "Saira", sans-serif;
+  color: white;
 }
 
-footer .footer-data p span {
-  color: #D9B31F;
+.home-container h1:hover {
+  color: #f9f8ef;
+  text-shadow: 0px 0px 30px #f9f8ef;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
-footer .footer-data img {
-  margin-top: 18px;
+.home-container .services-container {
+  position: relative;
+  margin-bottom: 4rem;
 }
 
-footer .footer-menu {
-  margin: 51px 182px 0 0;
+.home-container .services-container div p {
+  font-size: 1.2rem;
+  font-family: "Saira", sans-serif;
+  color: white;
+  position: absolute;
+  top: 25%;
+  width: 12rem;
 }
 
-footer .footer-menu li {
-  height: 15px;
+.home-container .work-container a img {
+  width: 90%;
+  padding: 0.75rem 0 0.75rem 0;
 }
 
-footer .footer-menu li a {
-  text-decoration: none;
-  color: #FFFFFF;
-  font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-}
-
-footer .redes-container {
-  margin: 60px 181px 0 0;
-}
-
-footer .redes-container p {
-  color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  font-style: italic;
-  padding-right: 11px;
-  line-height: 300%;
-}
-
-footer .redes-container a {
-  padding: 0 6px;
-}
-
-.home-container .tratamientos-container {
-  margin: 0 177px 73px 177px;
-}
-
-.home-container .tratamientos-container .tratamientos h2 {
-  color: #4C9DC8;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 17px;
+.home-container .aboutUs-container p {
+  color: white;
   text-align: center;
-  margin-bottom: 37px;
+  font-size: 1.2rem;
+  font-family: "Saira", sans-serif;
+  line-height: 3rem;
 }
 
-.home-container .tratamientos-container .tratamientos p {
-  color: #000000CC;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 17px;
-  width: 328px;
-}
-
-.home-container .promociones-container h2 {
-  color: #4C9DC8;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 17px;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.home-container .mission-banner-container {
-  margin: 94px 0;
-}
-
-.nosotros-container {
-  margin-top: 99px;
-}
-
-.nosotros-container .quienes-somos-container h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  color: #4C9DC8;
-}
-
-.nosotros-container .quienes-somos-container p {
-  margin-top: 44px;
-  width: 1096px;
-  color: #000000CC;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 21px;
-}
-
-.nosotros-container .mision-container {
-  margin-top: 81px;
-}
-
-.nosotros-container .mision-container h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  color: #4C9DC8;
-}
-
-.nosotros-container .mision-container p {
-  margin-top: 27px;
-  width: 1096px;
-  color: #000000CC;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 21px;
-}
-
-.nosotros-container .mision-container p span {
-  color: #4C9DC8;
-}
-
-.nosotros-container .equipo-container {
-  margin: 88px 0 275px 0;
-  width: 1096px;
-}
-
-.nosotros-container .equipo-container h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  color: #4C9DC8;
-}
-
-.nosotros-container .equipo-container .equipo {
-  margin-top: 57px;
-}
-
-.nosotros-container .equipo-container .equipo .miembros-equipo-2 {
-  margin-top: 65px;
-}
-
-.nosotros-container .equipo-container .equipo p {
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 21px;
-  color: #000000CC;
-  margin-left: 32px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-.nosotros-container .equipo-container .equipo p span {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 21px;
-  color: #000000CC;
-}
-
-.tratamientos-container {
-  margin: 99px 170px 251px 170px;
-}
-
-.tratamientos-container .tratamientos h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  color: #4C9DC8;
-}
-
-.tratamientos-container .tratamientos p {
-  width: 1089px;
-  margin-top: 21px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 21px;
-}
-
-.tratamientos-container .tratamientos p span {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 21px;
-}
-
-.tratamientos-container button {
-  margin-top: 50px;
-  width: 223px;
-  height: 50px;
-  background-color: #D9B31F;
-  border-radius: 2px;
-  border-style: none;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 0.875rem;
-  letter-spacing: 0.16px;
-  color: #3D3D3D;
-  -webkit-filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.12)) drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.2));
-          filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.12)) drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.2));
-}
-
-.productsData {
-  margin-left: 10.25rem;
-  margin-right: 10.25rem;
-  height: 84.4375rem;
-}
-
-.productsData h2 {
-  color: #4C9DC8;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2rem;
-  line-height: 2.4375rem;
+.home-container .aboutUs-container .aboutUs-item {
   text-align: center;
 }
 
-.productsData img {
-  display: block;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10.375rem;
+.home-container .aboutUs-container .aboutUs-item img {
+  height: 20rem;
 }
 
-.newsData {
-  margin-left: 10.25rem;
-  margin-right: 10.25rem;
-  height: 84.4375rem;
-}
-
-.newsData h2 {
-  color: #4C9DC8;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2rem;
-  line-height: 2.4375rem;
+.home-container .aboutUs-container .aboutUs-item h5 {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Saira", sans-serif;
   text-align: center;
 }
 
-.newsData h2 span {
-  color: #3D3D3D;
-}
-
-.newsData img {
-  display: block;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10.375rem;
-}
-
-.contactData {
-  margin-left: 10.25rem;
-  margin-right: 10.25rem;
-  height: 84.4375rem;
-}
-
-.contactData h2 {
-  color: #3D3D3D;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 2rem;
-  line-height: 2.4375rem;
+.home-container .contact-container p {
   text-align: center;
+  color: white;
+  font-family: "Saira", sans-serif;
 }
 
-.turnoForm {
-  margin-top: 8.125rem;
+.home-container .contact-container .form-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 45rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.turnoForm input::-webkit-input-placeholder, .turnoForm textarea::-webkit-input-placeholder {
-  color: #4B2F2F;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.5rem;
-  padding: 16px;
+.home-container .contact-container .form-container label {
+  color: white;
 }
 
-.turnoForm input:-ms-input-placeholder, .turnoForm textarea:-ms-input-placeholder {
-  color: #4B2F2F;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.5rem;
-  padding: 16px;
+.home-container .contact-container .form-container input {
+  width: 30rem;
 }
 
-.turnoForm input::-ms-input-placeholder, .turnoForm textarea::-ms-input-placeholder {
-  color: #4B2F2F;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.5rem;
-  padding: 16px;
-}
-
-.turnoForm input::placeholder, .turnoForm textarea::placeholder {
-  color: #4B2F2F;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.5rem;
-  padding: 16px;
-}
-
-.turnoForm input {
-  height: 3.5rem;
-  border: 2px solid #6B4F4F;
-  border-radius: 3.5px;
-  width: 1062px;
-}
-
-.turnoForm select {
-  height: 3.5rem;
-  border: 2px solid #6B4F4F;
-  border-radius: 3.5px;
-  width: 1062px;
-}
-
-.turnoForm select option {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.125rem;
-  color: #4C9DC8;
-}
-
-.turnoForm textarea {
-  height: 9.5rem;
-  border: 2px solid #6B4F4F;
-  border-radius: 3.5px;
-  width: 1062px;
-}
-
-.turnoForm button {
-  width: 11.4375rem;
-  height: 2.25rem;
-  background-color: #D9B31F;
-  border-radius: 2px;
-  border-style: none;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 0.875rem;
-  letter-spacing: 0.16px;
-  color: #3D3D3D;
-  -webkit-filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.12)) drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.2));
-          filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.12)) drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.2));
-}
-
-.contactData {
-  margin-left: 10.25rem;
-  margin-right: 10.25rem;
-  height: 84.4375rem;
-}
-
-.contactData h2 {
-  color: #3D3D3D;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 2rem;
-  line-height: 2.4375rem;
-  text-align: center;
-}
-
-.contactData .contactForm {
-  margin-top: 8.125rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 30.25rem;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.contactData .contactForm input {
-  height: 3.5rem;
-  border: 2px solid #6B4F4F;
-  border-radius: 3.5px;
-  width: 1062px;
-}
-
-.contactData .contactForm textarea {
-  height: 9.5rem;
-  border: 2px solid #6B4F4F;
-  border-radius: 3.5px;
-  width: 1062px;
-}
-
-.contactData .contactForm input::-webkit-input-placeholder, .contactData .contactForm textarea::-webkit-input-placeholder {
-  color: #4B2F2F;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.5rem;
-  padding: 16px;
-}
-
-.contactData .contactForm input:-ms-input-placeholder, .contactData .contactForm textarea:-ms-input-placeholder {
-  color: #4B2F2F;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.5rem;
-  padding: 16px;
-}
-
-.contactData .contactForm input::-ms-input-placeholder, .contactData .contactForm textarea::-ms-input-placeholder {
-  color: #4B2F2F;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.5rem;
-  padding: 16px;
-}
-
-.contactData .contactForm input::placeholder, .contactData .contactForm textarea::placeholder {
-  color: #4B2F2F;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.5rem;
-  padding: 16px;
-}
-
-.contactData .contactForm button {
-  width: 11.4375rem;
-  height: 2.25rem;
-  background-color: #D9B31F;
-  border-radius: 2px;
-  border-style: none;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 0.875rem;
-  letter-spacing: 0.16px;
-  color: #3D3D3D;
-  -webkit-filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.12)) drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.2));
-          filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.12)) drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.2));
+.home-container .contact-container .form-container textarea {
+  width: 30rem;
+  height: 20rem;
 }
 /*# sourceMappingURL=style.css.map */
